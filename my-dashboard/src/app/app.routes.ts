@@ -1,4 +1,5 @@
 import { Routes } from '@angular/router';
+import { CommonModule } from '@angular/common';
 
 export const routes: Routes = [
 
@@ -41,6 +42,9 @@ export const routes: Routes = [
                 title: 'View-transition',
                 loadComponent: () => import('./dashboard/pages/view-transition/view-transition.component'),
             },
+            {
+                path:'', redirectTo:'control-flow', pathMatch : 'full',
+            }
         ]
     },
     {

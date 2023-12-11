@@ -6,6 +6,6 @@ import { Component } from '@angular/core';
   templateUrl: './defer-opcions.component.html',
   styles: ``
 })
-export class DeferOpcionsComponent {
+export default class DeferOpcionsComponent {
 
 }
